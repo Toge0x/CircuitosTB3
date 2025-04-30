@@ -1,8 +1,8 @@
-# Install script for directory: /home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation
+# Install script for directory: /home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation/cmake" TYPE FILE FILES
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE DIRECTORY FILES
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation/launch"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation/maps"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation/param"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_navigation/rviz"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation/launch"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation/maps"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation/param"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_navigation/rviz"
     )
 endif()
 

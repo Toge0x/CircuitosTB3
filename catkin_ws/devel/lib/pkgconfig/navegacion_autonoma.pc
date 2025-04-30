@@ -1,0 +1,8 @@
+prefix=/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel
+
+Name: navegacion_autonoma
+Description: Description of navegacion_autonoma
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

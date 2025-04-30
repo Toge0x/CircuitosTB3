@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/antonio/Escritorio/Universidad/catkin_ws/src/get_pointclouds/src/node.cpp
+/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/get_pointclouds/src/node.cpp
 ros/ros.h
 -
 pcl_ros/point_cloud.h

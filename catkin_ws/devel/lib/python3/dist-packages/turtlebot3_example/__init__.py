@@ -6,7 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-__extended_path = '/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_example/src'.split(';')
+__extended_path = '/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_example/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/lib/get_pointclouds/get_pointclouds_node"
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/lib/get_pointclouds/get_pointclouds_node.pdb"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/lib/get_pointclouds/get_pointclouds_node"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/lib/get_pointclouds/get_pointclouds_node.pdb"
   "CMakeFiles/get_pointclouds_node.dir/src/node.cpp.o"
 )
 

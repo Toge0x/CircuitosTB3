@@ -1,8 +1,8 @@
-# Install script for directory: /home/antonio/Escritorio/Universidad/catkin_ws/src/send_velocity_commands
+# Install script for directory: /home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/send_velocity_commands
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commands.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commands.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/send_velocity_commands/cmake" TYPE FILE FILES
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commandsConfig.cmake"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commandsConfig-version.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commandsConfig.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/send_velocity_commands/catkin_generated/installspace/send_velocity_commandsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/send_velocity_commands" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/src/send_velocity_commands/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/send_velocity_commands" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/send_velocity_commands/package.xml")
 endif()
 

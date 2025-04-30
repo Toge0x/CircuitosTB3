@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/manifest.l"
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/SensorState.l"
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/Sound.l"
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/VersionInfo.l"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/manifest.l"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/SensorState.l"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/Sound.l"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/share/roseus/ros/turtlebot3_msgs/msg/VersionInfo.l"
   "CMakeFiles/turtlebot3_msgs_generate_messages_eus"
 )
 

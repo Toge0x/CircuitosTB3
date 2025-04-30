@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_example"
+echo_and_run cd "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_example"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/antonio/Escritorio/Universidad/catkin_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/antonio/Escritorio/Universidad/catkin_ws/install/lib/python3/dist-packages:/home/antonio/Escritorio/Universidad/catkin_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/antonio/Escritorio/Universidad/catkin_ws/build" \
+    PYTHONPATH="/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install/lib/python3/dist-packages:/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build" \
     "/usr/bin/python3" \
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_example/setup.py" \
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_example/setup.py" \
      \
-    build --build-base "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_example" \
+    build --build-base "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_example" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/antonio/Escritorio/Universidad/catkin_ws/install" --install-scripts="/home/antonio/Escritorio/Universidad/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install" --install-scripts="/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install/bin"

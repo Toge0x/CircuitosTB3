@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/lib/send_velocity_commands/send_velocity_commands_node"
-  "/home/antonio/Escritorio/Universidad/catkin_ws/devel/lib/send_velocity_commands/send_velocity_commands_node.pdb"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/lib/send_velocity_commands/send_velocity_commands_node"
+  "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/devel/lib/send_velocity_commands/send_velocity_commands_node.pdb"
   "CMakeFiles/send_velocity_commands_node.dir/main.cpp.o"
 )
 

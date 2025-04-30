@@ -1,8 +1,8 @@
-# Install script for directory: /home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_description
+# Install script for directory: /home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_description/cmake" TYPE FILE FILES
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_descriptionConfig.cmake"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_descriptionConfig-version.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_descriptionConfig.cmake"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/build/turtlebot3/turtlebot3_description/catkin_generated/installspace/turtlebot3_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_description" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_description" TYPE FILE FILES "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_description" TYPE DIRECTORY FILES
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_description/meshes"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_description/rviz"
-    "/home/antonio/Escritorio/Universidad/catkin_ws/src/turtlebot3/turtlebot3_description/urdf"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_description/meshes"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_description/rviz"
+    "/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/src/turtlebot3/turtlebot3_description/urdf"
     )
 endif()
 

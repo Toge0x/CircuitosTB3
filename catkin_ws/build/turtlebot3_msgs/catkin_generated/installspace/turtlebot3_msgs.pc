@@ -1,4 +1,4 @@
-prefix=/home/antonio/Escritorio/Universidad/catkin_ws/install
+prefix=/home/antonio/Escritorio/Universidad/VAR/var_p2/catkin_ws/install
 
 Name: turtlebot3_msgs
 Description: Description of turtlebot3_msgs
