@@ -7,6 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.model_selection import train_test_split
 from modelo_cnn import build_cnn_model
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # === Parámetros ===
 IMAGE_FOLDER = 'dataset/images'
