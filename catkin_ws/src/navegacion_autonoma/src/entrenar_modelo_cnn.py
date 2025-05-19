@@ -12,7 +12,7 @@ from modelo_cnn import build_cnn_model
 IMAGE_FOLDER = 'dataset/images'
 LABEL_FILE = 'dataset/labels.csv'
 IMG_SIZE = (64, 64)
-EPOCHS = 20
+EPOCHS = 25
 BATCH_SIZE = 32
 
 # === Cargar etiquetas ===
