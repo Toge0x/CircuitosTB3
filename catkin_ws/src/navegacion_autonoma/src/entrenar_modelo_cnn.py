@@ -7,7 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.model_selection import train_test_split
 from modelo_cnn import build_cnn_model
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"   # no detecta gpu en entrenamiento
 
 # === Parámetros ===
 IMAGE_FOLDER = 'dataset/images'
@@ -36,7 +36,7 @@ X = np.array(X)
 y = np.array(y)
 
 # === División entrenamiento/validación ===
-X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.1, shuffle=True, random_state=42)
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=42)
 
 # === Construcción del modelo ===
 model = build_cnn_model(input_shape=(64, 64, 3))
